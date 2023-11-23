@@ -27,6 +27,10 @@ After training for 20 epochs, you will obtain accuracy and F1-score scores close
 ```python
 {'LDM' : 99.12/99.13, 'ADM' : 85.24/82.97, 'DDPM' : 98.47/98.47, 'IDDPM' : 97.02/96.97, 'PNDM' : 99.22/99.23, 'SD v1.4' 77.68/71.79: , 'GLIDE' : 97.09/97.05} 
 ```
+## Dataset
+
+The dataset used in this project is sourced from the work of [Towards the Detection of Diffusion Model Deepfakes](https://arxiv.org/abs/2210.14571), available at [Link to Original Dataset Repository](https://github.com/jonasricker/diffusion-model-deepfake-detection).
+
 
 ## :book: Citation
 if you make use of our work, please cite our paper
