@@ -9,10 +9,16 @@ This is the **official repository** for the [**paper**](https://arxiv.org/abs/) 
 pip install -r requirements.txt
 ```
 
-## Detection Methods
+## SOTA Detection Methods
 
 We use the codes of detection methods provided in the corresponding paper. 
 
+- [Diffusers](https://github.com/davide-coccomini/Detecting-Images-Generated-by-Diffusers)
+- [Fusing](https://github.com/littlejuyan/FusingGlobalandLocal)
+- [LGrad](https://github.com/chuangchuangtan/LGrad)
+- [UnivFD](https://github.com/Yuheng-Li/UniversalFakeDetect)
+- [DIRE](https://github.com/ZhendongWang6/DIRE)
+- [AntifakePrompt](https://github.com/nctu-eva-lab/antifakeprompt)
 - [CNNSpot](https://github.com/PeterWang512/CNNDetection)
 - [Spec](https://github.com/ColumbiaDVMM/AutoGAN)
 - [F3Net](https://github.com/yyk-wew/F3Net)
