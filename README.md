@@ -13,6 +13,8 @@ pip install -r requirements.txt
 
 We use the codes of detection methods provided in the corresponding paper. 
 
+- [ClipBased-SyntheticImageDetection](https://grip-unina.github.io/ClipBased-SyntheticImageDetection/)
+- [DMimageDetection](https://github.com/grip-unina/DMimageDetection)
 - [Diffusers](https://github.com/davide-coccomini/Detecting-Images-Generated-by-Diffusers)
 - [Fusing](https://github.com/littlejuyan/FusingGlobalandLocal)
 - [LGrad](https://github.com/chuangchuangtan/LGrad)
