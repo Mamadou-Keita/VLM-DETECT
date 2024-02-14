@@ -9,6 +9,14 @@ This is the **official repository** for the [**paper**](https://arxiv.org/abs/) 
 pip install -r requirements.txt
 ```
 
+## Detection Methods
+
+We use the codes of detection methods provided in the corresponding paper. 
+
+- [CNNSpot](https://github.com/PeterWang512/CNNDetection)
+- [Spec](https://github.com/ColumbiaDVMM/AutoGAN)
+- [F3Net](https://github.com/yyk-wew/F3Net)
+
 ## Training (Optional)
 This step can be skipped, and you can directly test the model in the following section with a pre-trained model.
 
