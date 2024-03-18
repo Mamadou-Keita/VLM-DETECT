@@ -38,7 +38,7 @@ def collate_fn(batch):
 # Model Creation and Initialisation
 
 processor = AutoProcessor.from_pretrained("Salesforce/blip2-opt-2.7b")
-model = Blip2ForConditionalGeneration.from_pretrained("ybelkada/blip2-opt-2.7b-fp16-sharded", device_map="auto", load_in_8bit=True)
+model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b", device_map="auto", load_in_8bit=True)
 
 # Low Rank Adaptation Technique Set 
     # LoraConfig
