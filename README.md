@@ -1,6 +1,8 @@
 # Harnessing the Power of Large Vision Language Models for Synthetic Image Detection
 
-This is the **official repository** for the [**paper**]([https://arxiv.org/abs/](https://arxiv.org/pdf/2404.02726)) "*Harnessing the Power of Large Vision Language Models for Synthetic Image Detection*".
+This repository is an official implementation of the ICASSP 2024 paper "[*Harnessing the Power of Large Vision Language Models for Synthetic Image Detection*](https://arxiv.org/pdf/2404.02726)".
+
+☀️ If you find this work useful for your research, please kindly star our repo and cite our paper! ☀️
 
 ![assets/approach.png](assets/approach.png)
 
