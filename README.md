@@ -1,6 +1,6 @@
 # Harnessing the Power of Large Vision Language Models for Synthetic Image Detection
 
-This is the **official repository** for the [**paper**](https://arxiv.org/abs/) "*Harnessing the Power of Large Vision Language Models for Synthetic Image Detection*".
+This is the **official repository** for the [**paper**]([https://arxiv.org/abs/](https://arxiv.org/pdf/2404.02726)) "*Harnessing the Power of Large Vision Language Models for Synthetic Image Detection*".
 
 ![assets/approach.png](assets/approach.png)
 
@@ -49,7 +49,18 @@ The dataset used in this project is sourced from the work of [Towards the Detect
 ## :book: Citation
 if you make use of our work, please cite our paper
 ```
-@{
-
+@article{keita2024harnessing,
+  title={Harnessing the Power of Large Vision Language Models for Synthetic Image Detection},
+  author={Keita, Mamadou and Hamidouche, Wassim and Bougueffa, Hassen and Hadid, Abdenour and Taleb-Ahmed, Abdelmalik},
+  journal={arXiv preprint arXiv:2404.02726},
+  year={2024}
+}
+```
+```
+@article{keita2024bi,
+  title={Bi-LORA: A Vision-Language Approach for Synthetic Image Detection},
+  author={Keita, Mamadou and Hamidouche, Wassim and Eutamene, Hessen Bougueffa and Hadid, Abdenour and Taleb-Ahmed, Abdelmalik},
+  journal={arXiv preprint arXiv:2404.01959},
+  year={2024}
 }
 ```
