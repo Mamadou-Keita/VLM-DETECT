@@ -47,7 +47,7 @@ The dataset used in this project is sourced from the work of [Towards the Detect
 
 
 ## :book: Citation
-if you make use of our work, please cite our paper
+if you make use of our work, please cite our papers
 ```
 @article{keita2024harnessing,
   title={Harnessing the Power of Large Vision Language Models for Synthetic Image Detection},
