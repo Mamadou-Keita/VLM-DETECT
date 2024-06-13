@@ -6,6 +6,8 @@ This repository is an official implementation of the ICASSP 2024 paper "[*Harnes
 
 ![assets/approach.png](assets/approach.png)
 
+![assets/lora.png](assets/.png)
+
 ## Requirements
 ``` python
 pip install -r requirements.txt
