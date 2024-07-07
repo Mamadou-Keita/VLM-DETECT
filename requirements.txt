@@ -1,1 +1,7 @@
-
+-q git+https://github.com/huggingface/peft.git
+transformers
+bitsandbytes
+accelerate
+numpy
+pandas
+timm
