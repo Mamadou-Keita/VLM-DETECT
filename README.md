@@ -37,9 +37,13 @@ To train your own model:
 python blip2_detect.py --dataset ./data/train.csv --epochs 20 --lr 5e-5 
 ```
 ## Evaluation
-To run the evaluation, use the following command:
+To run the test on specific dataset, use the following command:
 ```python
-python blip2_test.py --model_path ./SaveFineTune --dataset ./data/test.csv
+python blip2_test.py --model_path ./weights/ldmFineTune --dataset ./data/test.csv
+```
+Or Run the test on all the testing subset 
+```python
+sh evaluation.sh
 ```
 ## Performance
 After training for 20 epochs, you will obtain accuracy and F1-score scores close to the percentages below:
