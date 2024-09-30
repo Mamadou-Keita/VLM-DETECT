@@ -1,11 +1,11 @@
 #!/bin/bash
 
 file_names=("pndm.csv" "sd.csv" "glide.csv") #"styleGAN.csv" "Diff-StyleGAN2.csv" "Diff-ProjectedGAN.csv" "ProGAN.csv" "ProjectedGAN.csv"
-model_names=("Glide" "adm" "ddpm" "iddpm" "pndm")
+model_names=("adm" "ddpm" "iddpm" "pndm" "sd" "glide")
 
 for file_name in "${file_names[@]}"; do
   for model_name in "${model_names[@]}"; do
-    python ./blip2_test.py --model_path "./BLIP2/${model_name}FineTune/" --batchSize 32 --dataset "./BLIP2/${file_name}" --save_output "./ResultsGAN/BLIP2$(echo $model_name | tr '[:lower:]' '[:upper:]')_${file_name}"
+    python ./blip2_test.py --model_path "./BLIP2/${model_name}FineTune/" --batchSize 32 --dataset "./BLIP2/${file_name}" --save_output "./Results/BLIP2$(echo $model_name | tr '[:lower:]' '[:upper:]')_${file_name}"
   done
 done
 
