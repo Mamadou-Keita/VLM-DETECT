@@ -79,6 +79,5 @@ if you make use of our work, please cite our papers
 <details>
 <summary>statistics</summary>
 
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Mamadou-Keita.VLM-DETECT)
 
 </details>
