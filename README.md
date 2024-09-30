@@ -74,3 +74,11 @@ if you make use of our work, please cite our papers
   year={2024}
 }
 ```
+#### --- Thanks for your interest! --- ####
+
+<details>
+<summary>statistics</summary>
+
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Mamadou-Keita.VLM-DETECT)
+
+</details>
