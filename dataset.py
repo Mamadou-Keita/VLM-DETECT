@@ -13,7 +13,7 @@ class ImageCaptioningDataset(Dataset):
 
     def __getitem__(self, idx):
         item = self.dataset.loc[idx]
-        encoding = self.processor(images=Image.open(tem["image"]), padding="max_length", return_tensors="pt")
+        encoding = self.processor(images=Image.open(item["image"]), padding="max_length", return_tensors="pt")
         # remove batch dimension
         encoding = {k: v.squeeze() for k, v in encoding.items()}
         encoding["text"] = item["text"]
